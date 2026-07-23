@@ -1,0 +1,52 @@
+name: Build Steven Production Payload
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/build-steven-payload.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  consolidate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download and validate payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p steven-packet/v2 /tmp/steven
+          curl -fsSL "https://lmb-deck-1777864299-9yvwy8275-alexs-projects-987f2218.vercel.app/payload-00.txt?_vercel_share=ccjguZG8hvVik3cwtF01dokOoVKrt7jl" -o /tmp/steven/00
+          curl -fsSL "https://lmb-deck-1777864299-dujr2oltv-alexs-projects-987f2218.vercel.app/payload-01.txt?_vercel_share=OjPM2bHo46dR16jHIMOfvwQBwowpVzwN" -o /tmp/steven/01
+          curl -fsSL "https://lmb-deck-1777864299-dujr2oltv-alexs-projects-987f2218.vercel.app/payload-02.txt?_vercel_share=OjPM2bHo46dR16jHIMOfvwQBwowpVzwN" -o /tmp/steven/02
+          curl -fsSL "https://lmb-deck-1777864299-d70j7xxil-alexs-projects-987f2218.vercel.app/payload-03.txt?_vercel_share=8H0cTem0GLAvcEqP9uWViP6czTW1EkIN" -o /tmp/steven/03
+          curl -fsSL "https://lmb-deck-1777864299-d70j7xxil-alexs-projects-987f2218.vercel.app/payload-04.txt?_vercel_share=8H0cTem0GLAvcEqP9uWViP6czTW1EkIN" -o /tmp/steven/04
+          curl -fsSL "https://lmb-deck-1777864299-qp6dfpm2g-alexs-projects-987f2218.vercel.app/payload-05.txt?_vercel_share=OjnAHJwua9RftKxsmoSlN2YkpMAV1B2Q" -o /tmp/steven/05
+          curl -fsSL "https://lmb-deck-1777864299-qp6dfpm2g-alexs-projects-987f2218.vercel.app/payload-06.txt?_vercel_share=OjnAHJwua9RftKxsmoSlN2YkpMAV1B2Q" -o /tmp/steven/06
+          cat /tmp/steven/0{0..6} > steven-packet/v2/payload.txt
+          python - <<'PY'
+          import base64, gzip
+          from pathlib import Path
+          payload = Path('steven-packet/v2/payload.txt').read_text().strip()
+          html = gzip.decompress(base64.b64decode(payload)).decode('utf-8')
+          assert 'Final Acceptance &amp; Recording' in html
+          assert 'Record the Transaction' in html
+          assert html.rstrip().endswith('</html>')
+          print(f'Validated {len(html):,} bytes of HTML')
+          PY
+
+      - name: Commit consolidated payload
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add steven-packet/v2/payload.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish Steven birthday production payload"
+            git push
+          fi
