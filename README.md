@@ -16,6 +16,9 @@ Founder of **[MidnightDev](https://midnightdev.dev)** in Houston, Texas. My oper
 - **[That’s My Best](https://thatsmybest.com)** · [App Store](https://apps.apple.com/us/app/thats-my-best-ai-friend-quiz/id6788340469)  
   A social game that converts photo-grid screenshots into a playable friend quiz with generated questions, creator-confirmed answers, sharing, and group reveals. Shipped on web and iOS with multimodal generation, safety gating, analytics, and spend controls.
 
+- **[Yapoleon’s Court](https://court.yapoleon.com)** · [Engineering case study](https://github.com/abouchard11/yapoleons-court)  
+  A competitive character game where players try to earn Yapoleon’s favor. The model supplies bounded taste and personality while deterministic, server-owned code derives every score.
+
 ## Featured engineering evidence
 
 - **[That’s My Best: Human-Confirmed Multimodal Quiz System](https://github.com/abouchard11/thats-my-best-engineering-case-study)** — an executable, sanitized reference model for creator-confirmed answers, server-owned truth, immutable sealed state, and deterministic group reveal.
@@ -24,6 +27,17 @@ Founder of **[MidnightDev](https://midnightdev.dev)** in Houston, Texas. My oper
 - **[gemini-reliability-proxy](https://github.com/abouchard11/gemini-reliability-proxy)** — model fallback, 429/5xx-aware routing, attempt and chain budgets, output-budget protection, and spend limits.
 - **[llm-safety-gate](https://github.com/abouchard11/llm-safety-gate)** — fail-closed, classifier-agnostic content-safety state machine with quorum voting, refusal/noise separation, and per-item degradation.
 - **[graphiti-neo4j-ops](https://github.com/abouchard11/graphiti-neo4j-ops)** — production-minded Graphiti/Neo4j operations with health-driven recovery, safe Community Edition backups, and local-only networking.
+
+## Research, IP, and operating systems
+
+- **[AI Citation Patterns](https://github.com/abouchard11/ai-citation-patterns)** — a dated, source-qualified field guide and reproducible benchmark for how AI search systems choose and cite sources.
+- **[Midnight SEO Skills](https://github.com/abouchard11/midnight-seo-skills)** — a versioned operating system that turns the citation research into auditable content, structured-data, and technical-SEO workflows.
+- **Independent patent development** — completed an invention, specification, prior-art review, examiner brief, and 26-claim provisional patent application package, with critique from an Australian patent reviewer.
+
+## Selected commercial systems
+
+- **[Jones Act Calculator](https://www.jonesactcalculator.com)** — an interactive, search-oriented maritime compensation resource with public methodology and explicit legal disclaimers.
+- **[HTX Work Injury](https://htxworkinjury.com)** — a guided workplace-injury information system combining qualification logic, calculators, public safety data, and explicit legal disclaimers.
 
 ## Upstream contribution
 
