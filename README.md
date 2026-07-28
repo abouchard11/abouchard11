@@ -6,7 +6,7 @@
 
 I build at the seam between model behavior and production software: character systems, multimodal generation, safety boundaries, deterministic controls, cost protection, analytics, and the product loops that turn an AI capability into something people can actually use.
 
-Founder of **[MidnightDev](https://midnightdev.dev)** in Houston, Texas. My operating rule is simple: models can propose and challenge; explicit authority boundaries, human confirmation, and machine-checkable invariants decide what ships.
+Founder of **[MidnightDev](https://midnightdev.dev)** in Houston, Texas. My operating rule is simple: models propose and challenge; explicit authority boundaries, human confirmation, and machine-checkable invariants decide what ships.
 
 ## Shipped products
 
@@ -18,6 +18,7 @@ Founder of **[MidnightDev](https://midnightdev.dev)** in Houston, Texas. My oper
 
 ## Featured engineering evidence
 
+- **[That’s My Best: Human-Confirmed Multimodal Quiz System](https://github.com/abouchard11/thats-my-best-engineering-case-study)** — an executable, sanitized reference model for creator-confirmed answers, server-owned truth, immutable sealed state, and deterministic group reveal.
 - **[Yapoleon’s Court](https://github.com/abouchard11/yapoleons-court)** — character-driven game architecture with deterministic server-owned scoring, prompt-injection isolation, anti-sycophancy boundaries, safety filtering, observability, and denial-of-wallet controls.
 - **[AI Boardroom Forecast Audit](https://github.com/abouchard11/ai-boardroom-forecast-audit)** — a reproducible case study showing how six synthetic decision lenses cut a roughly $65.9M forecast, then how a source-of-truth audit found a second $3.397M definition gap.
 - **[gemini-reliability-proxy](https://github.com/abouchard11/gemini-reliability-proxy)** — model fallback, 429/5xx-aware routing, attempt and chain budgets, output-budget protection, and spend limits.
