@@ -33,7 +33,7 @@ Founder of **[MidnightDev](https://midnightdev.dev)**. TypeScript, React, Python
 
 ## Location
 
-Houston, Texas · Willing to relocate to the Bay Area and work hybrid in Redwood City.
+Willing to relocate.
 
 ## Contact
 
