@@ -1,28 +1,40 @@
-### Hi, I'm Alex Bouchard 👋
+# Alex Bouchard
 
-I build LLM-backed products that survive contact with production. The interesting part is never the prompt; it's making an unreliable model behave like infrastructure: fallback chains, cost and denial-of-wallet limits, injection resistance, and fail-closed content safety, all hardened by the incidents that caused them. My work runs live, with real users and real money on the line. If you need someone who can make a model you can't fully trust into a feature you can ship, that's the whole job for me.
+### AI-native full-stack product engineer shipping consumer AI across web and iOS
 
-Founder of **[Midnight Dev](https://midnightdev.dev)**. TypeScript / React / Next.js, Python, Supabase, with Claude and Gemini integrations throughout.
+I build character-driven products that survive contact with real users: responsive interfaces, persistent personality, model reliability, safety boundaries, cost controls, analytics, and the unglamorous production machinery that keeps the magic alive.
 
-#### 🚀 Selected public work
+Founder of **[MidnightDev](https://midnightdev.dev)**. TypeScript, React, Python, Supabase, PostgreSQL, Neo4j, Docker, and Vercel.
 
-- **[yapoleons-court](https://github.com/abouchard11/yapoleons-court)** — AI-native game where the model can't touch the score: the server owns scoring, so injection and sycophancy structurally can't move it.
-- **[gemini-reliability-proxy](https://github.com/abouchard11/gemini-reliability-proxy)** — the reliability layer extracted from production: fallback chains, cost caps, denial-of-wallet limits.
-- **[graphiti-neo4j-ops](https://github.com/abouchard11/graphiti-neo4j-ops)** — hardened local Graphiti infrastructure: database-aware recovery, safe Neo4j Community backups, and portable macOS automation.
-- **[ai-citation-patterns](https://github.com/abouchard11/ai-citation-patterns)** — dated, sourced research on how AI answer engines (Google AIO, ChatGPT, Perplexity, Claude, Gemini) select and cite content.
-- **[midnight-seo-skills](https://github.com/abouchard11/midnight-seo-skills)** — the Claude Code skill suite I run my SEO portfolio with: audits, topical maps, link acquisition, local pack strategy.
-- **[Yapword](https://yapword.com)** — a daily word game featuring Yapoleon, a snarky AI emperor. Live on the web and the App Store.
+## Shipped consumer AI
 
-#### 🤝 Open-source contributions
+- **[Yapword](https://yapword.com)** · [App Store](https://apps.apple.com/us/app/yapword-ai-word-game/id6774829903)  
+  A daily word game where Yapoleon, a reactive AI character, watches each guess, responds in real time, offers contextual hints, and turns the player’s actual game into a personalized performance. Three daily difficulty modes, themed games, challenge duels, subscriptions/IAP, PostHog instrumentation, and production regression monitoring.
 
-- **[getzep/graphiti #1669](https://github.com/getzep/graphiti/pull/1669)** — authored the provider-matched reranker fix that removes Graphiti MCP's accidental OpenAI-key dependency from all-Gemini deployments; then production-tested and reviewed the broader proposed implementation in [#1637](https://github.com/getzep/graphiti/pull/1637).
-- **[rarelygoeshere/WordleWeb #8](https://github.com/rarelygoeshere/WordleWeb/pull/8)** — merged contribution adding Yapword and Yapoleon's Court to the community-maintained daily word-game directory.
+- **[That’s My Best](https://thatsmybest.com)** · [App Store](https://apps.apple.com/us/app/thats-my-best-ai-friend-quiz/id6788340469)  
+  An AI-native social game that converts a creator’s photo-grid screenshots into a playable friend quiz with generated questions, answer-specific reactions, sharing, and group reveal loops. Shipped on web and iOS with multimodal generation, safety gating, analytics, and cost controls.
 
-#### 🛠️ Stack
+## Production systems extracted into open source
 
-`TypeScript` · `React` · `Next.js` · `Python` · `Supabase` · `PostgreSQL` · `Neo4j` · `Docker` · `Stripe` · `Tailwind CSS` · `Vercel`
+- **[yapoleons-court](https://github.com/abouchard11/yapoleons-court)** — character-driven AI game architecture with deterministic server-owned scoring, prompt-injection isolation, anti-sycophancy boundaries, safety filtering, observability, and spend protection.
+- **[llm-safety-gate](https://github.com/abouchard11/llm-safety-gate)** — fail-closed, classifier-agnostic content-safety state machine with quorum voting, refusal/noise separation, and per-item degradation.
+- **[gemini-reliability-proxy](https://github.com/abouchard11/gemini-reliability-proxy)** — model fallback, 429/5xx-aware routing, attempt and chain budgets, output-budget protection, and denial-of-wallet limits.
+- **[graphiti-neo4j-ops](https://github.com/abouchard11/graphiti-neo4j-ops)** — production-minded Graphiti/Neo4j operations with health-driven recovery, safe Community Edition backups, and local-only networking.
 
-#### 📫 Get in touch
+## Upstream open-source work
 
-- 🌐 [midnightdev.dev](https://midnightdev.dev)
-- 🎮 Play [Yapword](https://yapword.com)
+- **[getzep/graphiti #1698](https://github.com/getzep/graphiti/pull/1698)** — open PR adding explicit MCP reranker-provider configuration while preserving automatic provider matching; includes test-first coverage for parsing, provider overrides, and service wiring.
+- **[getzep/graphiti #1669](https://github.com/getzep/graphiti/pull/1669)** — original provider-dependency diagnosis and focused proposal; closed after production-testing the broader fix in #1637, then followed with #1698.
+- **[rarelygoeshere/WordleWeb #8](https://github.com/rarelygoeshere/WordleWeb/pull/8)** — merged contribution adding Yapword and Yapoleon’s Court to the community word-game directory.
+
+## Stack
+
+`TypeScript` · `React` · `Next.js` · `Capacitor` · `Python` · `Supabase` · `PostgreSQL` · `Neo4j` · `Docker` · `Stripe` · `Tailwind CSS` · `Vercel` · `PostHog`
+
+## Location
+
+Houston, Texas · Willing to relocate to the Bay Area and work hybrid in Redwood City.
+
+## Contact
+
+[midnightdev.dev](https://midnightdev.dev) · alex@midnightdev.dev
