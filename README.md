@@ -19,7 +19,7 @@ Founder of **[MidnightDev](https://midnightdev.dev)** in Houston, Texas. My oper
 ## Featured engineering evidence
 
 - **[That’s My Best: Human-Confirmed Multimodal Quiz System](https://github.com/abouchard11/thats-my-best-engineering-case-study)** — an executable, sanitized reference model for creator-confirmed answers, server-owned truth, immutable sealed state, and deterministic group reveal.
-- **[Yapword Engineering Case Study](https://github.com/abouchard11/yapword-engineering-case-study)** — character-driven game architecture with deterministic server-owned scoring, prompt-injection isolation, anti-sycophancy boundaries, safety filtering, observability, and denial-of-wallet controls.
+- **[Yapoleon's Court](https://github.com/abouchard11/yapoleons-court)** — a competitive AI game where the model supplies bounded taste and character reactions while server-owned scoring, prompt-injection isolation, safety filters, fallbacks, and spend controls determine what counts.
 - **[AI Boardroom Forecast Audit](https://github.com/abouchard11/ai-boardroom-forecast-audit)** — a reproducible case study showing how six synthetic decision lenses cut a roughly $65.9M forecast, then how a source-of-truth audit found a second $3.397M definition gap.
 - **[gemini-reliability-proxy](https://github.com/abouchard11/gemini-reliability-proxy)** — model fallback, 429/5xx-aware routing, attempt and chain budgets, output-budget protection, and spend limits.
 - **[llm-safety-gate](https://github.com/abouchard11/llm-safety-gate)** — fail-closed, classifier-agnostic content-safety state machine with quorum voting, refusal/noise separation, and per-item degradation.
