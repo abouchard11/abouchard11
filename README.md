@@ -32,7 +32,7 @@ Founder of **[MidnightDev](https://midnightdev.dev)** in Houston, Texas. My oper
 
 - **[AI Citation Patterns](https://github.com/abouchard11/ai-citation-patterns)** — a dated, source-qualified field guide and reproducible benchmark for how AI search systems choose and cite sources.
 - **[Midnight SEO Skills](https://github.com/abouchard11/midnight-seo-skills)** — a versioned operating system that turns the citation research into auditable content, structured-data, and technical-SEO workflows.
-- **Independent patent development** — completed an invention, specification, prior-art review, examiner brief, and 26-claim provisional patent application package, with critique from an Australian patent reviewer.
+- **Independent patent development** — completed a provisional patent application package for an independently developed invention, including the specification, prior-art review, examiner brief, and 26 claims, with critique from an Australian patent reviewer.
 
 ## Selected commercial systems
 
