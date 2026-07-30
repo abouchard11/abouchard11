@@ -41,8 +41,8 @@ Founder of **[MidnightDev](https://midnightdev.dev)** in Houston, Texas. My oper
 
 ## Upstream contributions
 
-- **[getzep/graphiti #1637](https://github.com/getzep/graphiti/pull/1637#pullrequestreview-4754097201)** — production validation on Neo4j 5.26 + Gemini; found the fallback path silently restored the OpenAI dependency the PR removed. Fix ships in [`factories.py`](https://github.com/getzep/graphiti/blob/main/mcp_server/src/services/factories.py#L436-L452).
-- **[aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills/commit/2a0d1a9110e9d968d30622763defe6f0354e2be1)** — co-authored the merged commit adding 2026 AI citation guidance to `geo-content-optimizer`, upstreamed from [ai-citation-patterns](https://github.com/abouchard11/ai-citation-patterns).
+- **[getzep/graphiti #1637](https://github.com/getzep/graphiti/pull/1637#pullrequestreview-4754097201)** (29.4k stars) — production validation on Neo4j 5.26 + Gemini; found the fallback path silently restored the OpenAI dependency the PR removed. Fix ships in [`factories.py`](https://github.com/getzep/graphiti/blob/main/mcp_server/src/services/factories.py#L436-L452).
+- **[aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills/commit/2a0d1a9110e9d968d30622763defe6f0354e2be1)** (2.5k stars) — co-authored the merged commit adding 2026 AI citation guidance to `geo-content-optimizer`, upstreamed from [ai-citation-patterns](https://github.com/abouchard11/ai-citation-patterns).
 - **[getzep/graphiti #1698](https://github.com/getzep/graphiti/pull/1698)** — open PR: explicit MCP reranker-provider configuration.
 
 ## Stack
