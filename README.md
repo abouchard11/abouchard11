@@ -41,11 +41,9 @@ Founder of **[MidnightDev](https://midnightdev.dev)** in Houston, Texas. My oper
 
 ## Upstream contributions
 
-- **[getzep/graphiti #1637](https://github.com/getzep/graphiti/pull/1637#pullrequestreview-4754097201)** — production validation review of the MCP cross-encoder rework, run on Neo4j 5.26 with a Gemini LLM and embedder. Reproduced a silent regression in which a missing optional dependency sent the fallback path back into the exact hard OpenAI dependency the PR set out to remove, masked behind a misleading warning, and flagged an undeclared ~2.3 GB model download on first run. The proposed fail-fast handling ships in [`mcp_server/src/services/factories.py`](https://github.com/getzep/graphiti/blob/main/mcp_server/src/services/factories.py#L436-L452).
-
-- **[aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills/commit/2a0d1a9110e9d968d30622763defe6f0354e2be1)** — co-authored the merged commit that brought dated, first-party-sourced 2026 AI citation guidance into the `geo-content-optimizer` skill reference, including the crawler taxonomy across OpenAI (`OAI-SearchBot`, `GPTBot`, `ChatGPT-User`), Perplexity, and Google (`Google-Extended`, Preferred Sources, AI Mode). Upstreamed from [ai-citation-patterns](https://github.com/abouchard11/ai-citation-patterns); the maintainer expanded the evidence boundary before merge.
-
-- **[getzep/graphiti #1698](https://github.com/getzep/graphiti/pull/1698)** — open follow-up PR, offered during the review above and opened once that work landed, adding explicit MCP reranker-provider configuration while preserving automatic provider matching, with test-first coverage for parsing, provider overrides, and service wiring. Scoped in [#1697](https://github.com/getzep/graphiti/issues/1697).
+- **[getzep/graphiti #1637](https://github.com/getzep/graphiti/pull/1637#pullrequestreview-4754097201)** — production validation on Neo4j 5.26 + Gemini; found the fallback path silently restored the OpenAI dependency the PR removed. Fix ships in [`factories.py`](https://github.com/getzep/graphiti/blob/main/mcp_server/src/services/factories.py#L436-L452).
+- **[aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills/commit/2a0d1a9110e9d968d30622763defe6f0354e2be1)** — co-authored the merged commit adding 2026 AI citation guidance to `geo-content-optimizer`, upstreamed from [ai-citation-patterns](https://github.com/abouchard11/ai-citation-patterns).
+- **[getzep/graphiti #1698](https://github.com/getzep/graphiti/pull/1698)** — open PR: explicit MCP reranker-provider configuration.
 
 ## Stack
 
