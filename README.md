@@ -39,9 +39,13 @@ Founder of **[MidnightDev](https://midnightdev.dev)** in Houston, Texas. My oper
 - **[Jones Act Calculator](https://www.jonesactcalculator.com)** — an interactive, search-oriented maritime compensation resource with public methodology and explicit legal disclaimers.
 - **[HTX Work Injury](https://htxworkinjury.com)** — a guided workplace-injury information system combining qualification logic, calculators, public safety data, and explicit legal disclaimers.
 
-## Upstream contribution
+## Upstream contributions
 
-- **[getzep/graphiti #1698](https://github.com/getzep/graphiti/pull/1698)** — open PR adding explicit MCP reranker-provider configuration while preserving automatic provider matching, with test-first coverage for parsing, provider overrides, and service wiring.
+- **[getzep/graphiti #1637](https://github.com/getzep/graphiti/pull/1637#pullrequestreview-4754097201)** — production validation review of the MCP cross-encoder rework, run on Neo4j 5.26 with a Gemini LLM and embedder. Reproduced a silent regression in which a missing optional dependency sent the fallback path back into the exact hard OpenAI dependency the PR set out to remove, masked behind a misleading warning, and flagged an undeclared ~2.3 GB model download on first run. The proposed fail-fast handling ships in [`mcp_server/src/services/factories.py`](https://github.com/getzep/graphiti/blob/main/mcp_server/src/services/factories.py#L436-L452).
+
+- **[aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills/commit/2a0d1a9110e9d968d30622763defe6f0354e2be1)** — co-authored the merged commit that brought dated, first-party-sourced 2026 AI citation guidance into the `geo-content-optimizer` skill reference, including the crawler taxonomy across OpenAI (`OAI-SearchBot`, `GPTBot`, `ChatGPT-User`), Perplexity, and Google (`Google-Extended`, Preferred Sources, AI Mode). Upstreamed from [ai-citation-patterns](https://github.com/abouchard11/ai-citation-patterns); the maintainer expanded the evidence boundary before merge.
+
+- **[getzep/graphiti #1698](https://github.com/getzep/graphiti/pull/1698)** — open follow-up PR, offered during the review above and opened once that work landed, adding explicit MCP reranker-provider configuration while preserving automatic provider matching, with test-first coverage for parsing, provider overrides, and service wiring. Scoped in [#1697](https://github.com/getzep/graphiti/issues/1697).
 
 ## Stack
 
