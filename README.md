@@ -66,6 +66,6 @@ Before software, I contributed to **85+ retail commercial-real-estate transactio
 
 ## Work with me
 
-MidnightDev takes a limited number of product diagnostics, proof-of-value builds, embedded engagements, and strategic partnerships. I am also open to unusually strong **forward-deployed AI engineering** and applied-AI product roles.
+MidnightDev takes a limited number of product diagnostics, proof-of-value builds, embedded engagements, and strategic partnerships. I am also open to unusually strong forward-deployed AI engineering and applied-AI product roles.
 
 [**midnightdev.dev**](https://midnightdev.dev) · **alex@midnightdev.dev** · Houston, Texas · Willing to relocate
