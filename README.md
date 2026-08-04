@@ -1,6 +1,6 @@
 # Alex Bouchard
 
-### Forward-Deployed AI Engineer · Product, Growth & Intelligence Systems
+### Forward-Deployed AI Lead · Product, Growth & Intelligence Systems
 
 [**MidnightDev**](https://midnightdev.dev) · [**Interactive case file**](https://midnightdev.dev/alex-bouchard) · [**Services**](https://midnightdev.dev/services)
 
