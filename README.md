@@ -10,7 +10,7 @@ I build AI products—and the systems that get them discovered, measured, and us
 
 As founder and solo builder at **[MidnightDev](https://midnightdev.dev)**, I work from product thesis and business model through UX, model behavior, full-stack engineering, web and iOS release, technical SEO, GEO/AI-answer readiness, owned distribution, and PostHog telemetry.
 
-My specialty is the difficult seam where probabilistic models meet reliable software: persistent characters, multimodal generation, deterministic controls, human confirmation, safety boundaries, cost protection, analytics, and feedback loops. Models may propose and challenge; explicit authority boundaries and machine-checkable constraints decide what ships.
+My specialty is the difficult seam where probabilistic models meet reliable software: persistent characters, multimodal generation, deterministic controls, invariant testing, safety boundaries, cost protection, analytics, and feedback loops. Models may propose and challenge; explicit authority boundaries and machine-checkable constraints decide what ships.
 
 ## Shipped products
 
@@ -18,7 +18,7 @@ My specialty is the difficult seam where probabilistic models meet reliable soft
   AI-native daily word game where Yapoleon reacts to each guess, gives contextual hints, and comments on how the player actually played. Shipped across web and iOS with subscriptions, product analytics, and production regression monitoring.
 
 - **[That’s My Best](https://thatsmybest.com)** · [App Store](https://apps.apple.com/us/app/thats-my-best-ai-friend-quiz/id6788340469)  
-  Multimodal social product that converts photo-grid screenshots into playable friend quizzes with generated questions, creator-confirmed answers, sharing, and group reveals. Taken from concept to App Store approval in 14 days.
+  Multimodal social product that converts photo-grid screenshots into playable friend quizzes with generated questions, invariant-bounded answer keys, sharing, and group reveals. Taken from concept to App Store approval in 14 days.
 
 - **[Yapoleon’s Court](https://court.yapoleon.com)** · [Engineering case study](https://github.com/abouchard11/yapoleons-court)  
   Competitive character game where players try to earn Yapoleon’s favor. The model supplies bounded taste and personality; deterministic, server-owned code derives every score.
@@ -32,7 +32,7 @@ My specialty is the difficult seam where probabilistic models meet reliable soft
 
 ## Featured engineering evidence
 
-- **[That’s My Best: Human-Confirmed Multimodal Quiz System](https://github.com/abouchard11/thats-my-best-engineering-case-study)** — executable, sanitized reference model for creator-confirmed answers, server-owned truth, immutable sealed state, and deterministic group reveal.
+- **[That’s My Best: Model-Proposed Answer Keys Under Machine-Checkable Invariants](https://github.com/abouchard11/thats-my-best-engineering-case-study)** — executable, sanitized reference model for answer-free player payloads, reveal only after a valid pick, immutable sealed state, and deterministic group reveal.
 - **[Yapoleon’s Court](https://github.com/abouchard11/yapoleons-court)** — bounded character generation with prompt-injection isolation, safety filters, fallbacks, spend controls, and server-owned scoring.
 - **[AI Boardroom Forecast Audit](https://github.com/abouchard11/ai-boardroom-forecast-audit)** — reproducible case study showing how six synthetic decision lenses cut a roughly $65.9M forecast, followed by a source-of-truth audit that found a second $3.397M definition gap.
 - **[gemini-reliability-proxy](https://github.com/abouchard11/gemini-reliability-proxy)** — model fallback, 429/5xx-aware routing, attempt and chain budgets, output-budget protection, and spend limits.
