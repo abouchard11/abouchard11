@@ -1,14 +1,14 @@
 # Alex Bouchard
 
-### Forward-Deployed AI Lead · Product, Growth & Intelligence Systems
+### AI-Native Founder-Operator · Forward-Deployed AI Lead
 
 [**MidnightDev**](https://midnightdev.dev) · [**Interactive case file**](https://midnightdev.dev/alex-bouchard) · [**Services**](https://midnightdev.dev/services)
 
 > **Generate boldly. Validate cheaply. Kill ruthlessly. Scale what survives.**
 
-I build AI products—and the systems that get them discovered, measured, and used.
+I build AI products—and the systems that get them discovered, measured, used, and monetized.
 
-As founder and solo builder at **[MidnightDev](https://midnightdev.dev)**, I work from product thesis and business model through UX, model behavior, full-stack engineering, web and iOS release, technical SEO, GEO/AI-answer readiness, owned distribution, and PostHog telemetry.
+As founder and solo builder at **[MidnightDev](https://midnightdev.dev)**, I am the sole human accountable for every function and every production decision: product thesis, business model, brand, UX, AI behavior, full-stack engineering, testing, security, deployment, web and iOS release, growth, analytics, and ongoing operations.
 
 My specialty is the difficult seam where probabilistic models meet reliable software: persistent characters, multimodal generation, deterministic controls, invariant testing, safety boundaries, cost protection, analytics, and feedback loops. Models may propose and challenge; explicit authority boundaries and machine-checkable constraints decide what ships.
 
@@ -18,7 +18,10 @@ My specialty is the difficult seam where probabilistic models meet reliable soft
   AI-native daily word game where Yapoleon reacts to each guess, gives contextual hints, and comments on how the player actually played. Shipped across web and iOS with subscriptions, product analytics, and production regression monitoring.
 
 - **[That’s My Best](https://thatsmybest.com)** · [App Store](https://apps.apple.com/us/app/thats-my-best-ai-friend-quiz/id6788340469)  
-  Multimodal social product that converts photo-grid screenshots into playable friend quizzes with generated questions, invariant-bounded answer keys, sharing, and group reveals. Taken from concept to App Store approval in 14 days.
+  Multimodal social product that converts photo-grid screenshots into playable friend quizzes with generated questions, invariant-bounded answer keys, sharing, and group reveals. Taken from concept to App Store approval in roughly two weeks.
+
+- **[ReadableByAI](https://readablebyai.com)**  
+  AI-crawler visibility system that probes 12 crawler identities for reachability, speed, raw-HTML readability, and robots.txt permission; also includes customer-owned monitoring, log analysis, a 661-company benchmark, and a paid verification path. Taken from concept to production in 72 hours.
 
 - **[Yapoleon’s Court](https://court.yapoleon.com)** · [Engineering case study](https://github.com/abouchard11/yapoleons-court)  
   Competitive character game where players try to earn Yapoleon’s favor. The model supplies bounded taste and personality; deterministic, server-owned code derives every score.
@@ -58,7 +61,7 @@ My specialty is the difficult seam where probabilistic models meet reliable soft
 
 ## Commercial judgment
 
-Before software, I contributed to **85+ retail commercial-real-estate transactions totaling roughly $400M** across acquisition, disposition, leasing, and repositioning. That background still shapes how I underwrite products, inspect assumptions, and make decisions under uncertainty.
+Before software, I specialized in repositioning Class C shopping centers and contributed to **85–90 shopping-center transactions totaling roughly $400M** across acquisition, disposition, leasing, and portfolio strategy. That background still shapes how I diagnose underperforming assets, underwrite products, inspect assumptions, and make decisions under uncertainty.
 
 ## Stack
 
@@ -66,6 +69,6 @@ Before software, I contributed to **85+ retail commercial-real-estate transactio
 
 ## Work with me
 
-MidnightDev takes a limited number of product diagnostics, proof-of-value builds, embedded engagements, and strategic partnerships. I am also open to unusually strong forward-deployed AI engineering and applied-AI product roles.
+MidnightDev takes a limited number of product diagnostics, proof-of-value builds, embedded engagements, and strategic partnerships. I am also open to unusually strong forward-deployed AI leadership, AI-native founder-operator, and special-projects roles.
 
-[**midnightdev.dev**](https://midnightdev.dev) · **alex@midnightdev.dev** · Houston, Texas · Willing to relocate
+[**midnightdev.dev**](https://midnightdev.dev) · **alex@midnightdev.dev** · Houston, Texas · U.S.–Canadian dual citizen · Willing to relocate
