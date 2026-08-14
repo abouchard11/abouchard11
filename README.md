@@ -1,6 +1,6 @@
 # Alex Bouchard
 
-### AI-Native Founder-Operator · Forward-Deployed AI Lead
+### Forward-Deployed AI Lead · Founder @ MidnightDev
 
 [**MidnightDev**](https://midnightdev.dev) · [**Interactive case file**](https://midnightdev.dev/alex-bouchard) · [**Services**](https://midnightdev.dev/services)
 
