@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you reference this work, please cite it as below."
+title: "abouchard11"
+abstract: >-
+  The GitHub profile README for Alex Bouchard — an index of public work across AI
+  reliability, evaluation, and generative engine optimization.
+authors:
+  - family-names: "Bouchard"
+    given-names: "Alex"
+    email: "alex@midnightdev.dev"
+    affiliation: "MidnightDev"
+    website: "https://midnightdev.dev"
+repository-code: "https://github.com/abouchard11/abouchard11"
+url: "https://github.com/abouchard11"
+date-released: 2026-07-25
+keywords:
+  - "profile"
+  - "index"
+  - "midnightdev"
+preferred-citation:
+  type: generic
+  title: "Alex Bouchard: GitHub Profile and Work Index"
+  authors:
+    - family-names: "Bouchard"
+      given-names: "Alex"
+      email: "alex@midnightdev.dev"
+      affiliation: "MidnightDev"
+      website: "https://midnightdev.dev"
+  year: 2026
+  month: 7
+  url: "https://github.com/abouchard11"
