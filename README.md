@@ -46,7 +46,7 @@ My specialty is the difficult seam where probabilistic models meet reliable soft
 
 - **[AI Citation Patterns](https://github.com/abouchard11/ai-citation-patterns)** — dated, source-qualified field guide and reproducible benchmark for how AI search systems choose and cite sources.
 - **[Midnight SEO Skills](https://github.com/abouchard11/midnight-seo-skills)** — versioned operating system that turns the citation research into auditable content, structured-data, and technical-SEO workflows.
-- **Independent patent development** — **patent pending**: a U.S. provisional patent application filed September 2026 in bounded autonomy and capability-scoped agent control. Independent research; the problem space is discussable at a high level, the implementation and IP analysis are not.
+- **Independent patent filings** — inventor on two confidential U.S. provisional patent applications filed in 2026 relating to controlled AI-system execution and human-gated authorization.
 
 ## Selected commercial systems
 
