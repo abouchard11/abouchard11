@@ -46,7 +46,7 @@ My specialty is the difficult seam where probabilistic models meet reliable soft
 
 - **[AI Citation Patterns](https://github.com/abouchard11/ai-citation-patterns)** — dated, source-qualified field guide and reproducible benchmark for how AI search systems choose and cite sources.
 - **[Midnight SEO Skills](https://github.com/abouchard11/midnight-seo-skills)** — versioned operating system that turns the citation research into auditable content, structured-data, and technical-SEO workflows.
-- **Independent patent development** — completed a provisional patent application package for an independently developed invention, including the specification, prior-art review, examiner brief, and 26 claims, with critique from an Australian patent reviewer.
+- **Independent patent development** — **patent pending**: a U.S. provisional patent application filed September 2026 in bounded autonomy and capability-scoped agent control. Independent research; the problem space is discussable at a high level, the implementation and IP analysis are not.
 
 ## Selected commercial systems
 
@@ -57,11 +57,10 @@ My specialty is the difficult seam where probabilistic models meet reliable soft
 
 - **[getzep/graphiti #1637](https://github.com/getzep/graphiti/pull/1637#pullrequestreview-4754097201)** (29.4k stars) — production validation on Neo4j 5.26 + Gemini; found the fallback path silently restored the OpenAI dependency the PR removed. The fix ships in [`factories.py`](https://github.com/getzep/graphiti/blob/main/mcp_server/src/services/factories.py#L436-L452).
 - **[aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills/commit/2a0d1a9110e9d968d30622763defe6f0354e2be1)** (2.5k stars) — co-authored the merged commit adding 2026 AI-citation guidance to `geo-content-optimizer`, upstreamed from [AI Citation Patterns](https://github.com/abouchard11/ai-citation-patterns).
-- **[getzep/graphiti #1698](https://github.com/getzep/graphiti/pull/1698)** — open PR for explicit MCP reranker-provider configuration.
 
 ## Commercial judgment
 
-Before software, I specialized in repositioning Class C shopping centers and contributed to **85–90 shopping-center transactions totaling roughly $400M** across acquisition, disposition, leasing, and portfolio strategy. That background still shapes how I diagnose underperforming assets, underwrite products, inspect assumptions, and make decisions under uncertainty.
+Before software, I specialized in repositioning Class C shopping centers and contributed to **85+ shopping-center transactions totaling roughly $400M** across acquisition, disposition, leasing, and portfolio strategy. That background still shapes how I diagnose underperforming assets, underwrite products, inspect assumptions, and make decisions under uncertainty.
 
 ## Stack
 
