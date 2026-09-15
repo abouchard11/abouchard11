@@ -55,8 +55,10 @@ My specialty is the difficult seam where probabilistic models meet reliable soft
 
 ## Upstream contributions
 
-- **[getzep/graphiti #1637](https://github.com/getzep/graphiti/pull/1637#pullrequestreview-4754097201)** (29.4k stars) — production validation on Neo4j 5.26 + Gemini; found the fallback path silently restored the OpenAI dependency the PR removed. The fix ships in [`factories.py`](https://github.com/getzep/graphiti/blob/main/mcp_server/src/services/factories.py#L436-L452).
-- **[aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills/commit/2a0d1a9110e9d968d30622763defe6f0354e2be1)** (2.5k stars) — co-authored the merged commit adding 2026 AI-citation guidance to `geo-content-optimizer`, upstreamed from [AI Citation Patterns](https://github.com/abouchard11/ai-citation-patterns).
+- **[getzep/graphiti #1637](https://github.com/getzep/graphiti/pull/1637#pullrequestreview-4754097201)** (30.9k stars) — production validation on Neo4j 5.26 + Gemini; found the fallback path silently restored the OpenAI dependency the PR removed. The fix ships in [`factories.py`](https://github.com/getzep/graphiti/blob/main/mcp_server/src/services/factories.py#L436-L452).
+- **[aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills/commit/2a0d1a9110e9d968d30622763defe6f0354e2be1)** (2.8k stars) — co-authored the merged commit adding 2026 AI-citation guidance to `geo-content-optimizer`, upstreamed from [AI Citation Patterns](https://github.com/abouchard11/ai-citation-patterns).
+- **[jashkenas/backbone #4307](https://github.com/jashkenas/backbone/pull/4307)** (28.1k stars) — Events-internals documentation and architecture diagram for the annotated source; in final maintainer review.
+- **[ActivityWatch/aw-client #116](https://github.com/ActivityWatch/aw-client/pull/116)** — privacy-safe `summary` CLI with local-only aggregation and host isolation by default; approved in review, awaiting merge.
 
 ## Commercial judgment
 
