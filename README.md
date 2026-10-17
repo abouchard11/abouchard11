@@ -42,6 +42,15 @@ My specialty is the difficult seam where probabilistic models meet reliable soft
 - **[llm-safety-gate](https://github.com/abouchard11/llm-safety-gate)** — fail-closed, classifier-agnostic content-safety state machine with quorum voting, refusal/noise separation, and per-item degradation.
 - **[graphiti-neo4j-ops](https://github.com/abouchard11/graphiti-neo4j-ops)** — production-minded Graphiti/Neo4j operations with health-driven recovery, safe Community Edition backups, and local-only networking.
 
+## Governed agent stack
+
+The same rule at every layer: the model drafts and verifies; it never owns an irreversible edge.
+
+- **[agentic-graph-orchestration](https://github.com/abouchard11/agentic-graph-orchestration)** — linter and runtime for agent work graphs in which every node names who may close it: human, script, model, or policy. A graph that lets the model close `pay`, `publish`, `merge`, `ban`, or `remember` fails lint; the runtime halts at every human gate; a fail-closed SHA-256 sentinel refuses to gate from a drifted copy of the linter. 41 tests.
+- **[midnight-reasoning](https://github.com/abouchard11/midnight-reasoning)** — cross-run reflection and critic library over Graphiti. One 0.6 confidence floor, two independent decisions: an unsure critic cannot force a retry, and an unsure verdict cannot become durable memory. Promotion without a store throws instead of logging success. 23 tests.
+- **[Caduceus](https://github.com/abouchard11/caduceus)** — multi-seat decision engine: five council seats cast across four model families on purpose, because same-family agents agree too easily, with a believability ledger that weights each seat by its track record. Councils advise; the operator decides. 394 tests.
+- **[Graphiti Lens](https://github.com/abouchard11/graphiti-lens)** — read-only explorer for Graphiti's bitemporal knowledge graph: an as-of scrubber, superseded and retracted facts drawn by dash pattern rather than colour alone, a plain-text `/api/explain` surface for screen readers and agents, and every query inside a Neo4j READ transaction. 25 tests.
+
 ## Upstream contributions
 
 - **[getzep/graphiti #1637](https://github.com/getzep/graphiti/pull/1637#pullrequestreview-4754097201)** (30.9k stars) — production validation on Neo4j 5.26 + Gemini; found the fallback path silently restored the OpenAI dependency the PR removed. The fix ships in [`factories.py`](https://github.com/getzep/graphiti/blob/main/mcp_server/src/services/factories.py#L436-L452).
@@ -56,6 +65,8 @@ My specialty is the difficult seam where probabilistic models meet reliable soft
 
 - **[AI Citation Patterns](https://github.com/abouchard11/ai-citation-patterns)** — dated, source-qualified field guide and reproducible benchmark for how AI search systems choose and cite sources.
 - **[Midnight SEO Skills](https://github.com/abouchard11/midnight-seo-skills)** — versioned operating system that turns the citation research into auditable content, structured-data, and technical-SEO workflows.
+- **[polydrift](https://github.com/abouchard11/polydrift)** — measurement before money: a read-only, keyless Polymarket + Kalshi harness built to answer one question before any capital moves — does a forecast that diverges from the market predict convergence, net of fees? 122 tests.
+- **[Texas large-load tracker](https://github.com/abouchard11/tx-large-load-tracker)** — daily digest of ERCOT data-center interconnection (Batch Zero, PUCT 58481 and 58317, the governor's office, news): what changed, which deadlines are coming, and whether every source was actually read. Runs every morning; offline tests against saved source pages.
 - **Independent patent filings** — inventor on two confidential U.S. provisional patent applications filed in 2026 relating to controlled AI-system execution and human-gated authorization.
 
 ## Selected commercial systems
